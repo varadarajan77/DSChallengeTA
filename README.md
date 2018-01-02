@@ -1,4 +1,5 @@
 Requirements:
+- Python3
 - Pandas
 - Numpy
 - Cufflinks
@@ -19,3 +20,7 @@ into the same folder before running the command to generate the output file.
 Command to generate the output file:
 - ./solution.py logs.csv > output.csv (generates the output file faster as it uses pyspark)
 - ./solution_without_pyspark.py logs.csv > output.csv (generates the output file slower as it only uses pandas for processing)
+
+Note: Change the shebang of the *.py files to point to the python3 installation of the respective computer
+
+
