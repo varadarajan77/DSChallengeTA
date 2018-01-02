@@ -37,7 +37,7 @@ def is_user_active_on_weekday_business_hours_spark_function(list_1, list_2):
             condition_satified += 1
     return condition_satified > 0
 
-# Function which checks if the user if highly mobile or not
+# Function which checks if the user is highly mobile or not
 def is_user_highly_mobile_spark_function(hashed_ip):
     return len(hashed_ip) > 5
 

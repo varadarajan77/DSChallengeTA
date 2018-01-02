@@ -23,7 +23,7 @@ def is_user_active_on_weekday_business_hours(group):
             condition_check += 1
     return condition_check > 0
 
-# Function which checks if the user if highly mobile or not
+# Function which checks if the user is highly mobile or not
 def is_user_highly_mobile(group):
     return len(group['hashed_ip'].unique()) > 5
 
